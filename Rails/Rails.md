@@ -126,6 +126,10 @@ API in Rails - [link](https://www.kollegorna.se/en/2015/04/build-an-api-now/)
 
 3.4.3 [momentjs](https://github.com/derekprior/momentjs-rails)
 
+3.4.4 [flag-icons-rails](https://github.com/evgenygarl/flag-icons-rails)
+
+3.4.5 [country_list](https://github.com/michaelkoper/country_list)
+
 ### 3.5 Image Uploading
 
 3.5.1 [Carrierwave](https://github.com/carrierwaveuploader/carrierwave)
@@ -146,6 +150,9 @@ With S3: http://kerrizor.com/blog/2014/04/13/carrierwave-and-s3
 3.6.5 [device_detector](https://github.com/podigee/device_detector)
 
 3.6.6 [rest-client](https://github.com/rest-client/rest-client)
+
+3.6.7 [aws-sdk](https://github.com/aws/aws-sdk-ruby)
+
 ## 4. Active Record 
 ### 4.1 Validation
 http://guides.rubyonrails.org/active_record_validations.html
@@ -173,7 +180,11 @@ A model belonging to more than one other model
 - http://guides.rubyonrails.org/association_basics.html#polymorphic-associations
 - https://gorails.com/episodes/comments-with-polymorphic-associations?autoplay=1
 
-## 5. Front-end
+## 5. Routing
+
+Scope vs Namespace - [link](https://devblast.com/b/rails-5-routes-scope-vs-namespace)
+
+## 6. Front-end
 Bootstrap 3:
 https://getbootstrap.com/docs/3.3/
 
@@ -191,16 +202,23 @@ Wow.js: http://mynameismatthieu.com/WOW/
 
 Google Map Javascript: [API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-## 6. MISC.
-### 6.1 Image resizing
+## 7.
+
+## 8. MISC.
+### 8.1 Image resizing
 External installation needed for using image resizing gems
 
 ImageMagick (windows) - [download](https://www.imagemagick.org/script/download.php#windows)
 
 GraphicMagick ([windows](http://www.graphicsmagick.org/INSTALL-windows.html)) - [download](ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/windows/)
 
+### 8.2 Heroku
 
-## 7. Weird Errors
+First time:
+> heroku rake db:migrate
 
-### 7.1 Postgres Service gone/not starting
+
+## 9. Weird Errors
+
+### 9.1 Postgres Service gone/not starting
 > pg_ctl.exe register -N postgres -D "PGDATADIR"
