@@ -1,13 +1,13 @@
 # Android 
 
-Notes of components used, problems faced etc... when working on an Android project. (might be useful for reference for future projects). 
+Notes of components used, problems faced etc... when working on an Android project. (might be useful *for reference* for future projects). 
 
 Most of the explanations are taken from [here](https://developer.android.com/guide/index.html). Reference original site for detailed explanation.
 
-*Not 100% reliable, please google.
+> For reference, not 100% reliable, please google.
 
 
-Integrating libraries into project
+#### Integrating libraries into project
 - edit `build.gradle (Module:)`
     > dependencies: implementation ''
 
@@ -16,10 +16,10 @@ OR
 - edit `build.gradle (Project:)`
     > repository {}
 
-[Android Activity Life Cycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
+#### [Android Activity Life Cycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
 
 
-[Android activity launchMode](https://developer.android.com/guide/topics/manifest/activity-element.html#lmode)
+#### [Android Activity launchMode](https://developer.android.com/guide/topics/manifest/activity-element.html#lmode)
 
 An instruction on how the activity should be launched. There are four modes that work in conjunction with activity flags in Intent objects to determine what should happen when the activity is called upon to handle an intent.
 
@@ -31,8 +31,7 @@ They are:
 
 *read link
 
-More explanation
-- [here]((https://inthecheesefactory.com/blog/understand-android-activity-launchmode/en))
+More explanation [here](https://inthecheesefactory.com/blog/understand-android-activity-launchmode/en)
 
 ## Android Components
 
